@@ -1400,7 +1400,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1928df0d5477ce41a4030f0918b3dba, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TestingUI
+  m_EditorClassIdentifier: Assembly-CSharp::MileConverter
   inputField: {fileID: 428070012}
   outputText: {fileID: 817294351}
 --- !u!4 &1650672500
