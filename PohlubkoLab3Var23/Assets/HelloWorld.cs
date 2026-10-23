@@ -4,7 +4,8 @@ using System.Collections.Generic;
 
 public class HelloWorld : MonoBehaviour
 {
-    public GameObject obj;
+    public GameObject objToMove;
+    public GameObject objToDestroy;
     public float speed = 15.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -15,10 +16,14 @@ public class HelloWorld : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        obj.transform.Rotate(new Vector3(10, 10, 10) * (Time.deltaTime * speed));
+        
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            objToMove.transform.Rotate(Vector3.down * (Time.deltaTime * speed));
+        }
         if (Input.GetKeyUp(KeyCode.Space))
         {
-            Destroy(obj);
+            Destroy(objToDestroy);
         }
     }
 }
