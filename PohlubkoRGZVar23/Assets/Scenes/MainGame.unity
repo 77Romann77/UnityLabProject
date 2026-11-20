@@ -4609,8 +4609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be1a2ce143006e748a625760fcfeb276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneNavigation
-  uiAudioSource: {fileID: 0}
-  buttonClickClip: {fileID: 0}
+  uiAudioSource: {fileID: 1554137489}
+  buttonClickClip: {fileID: 8300000, guid: 0e74cd79918020941aa53ba08b17713d, type: 3}
 --- !u!114 &1554137487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4634,12 +4634,12 @@ MonoBehaviour:
   startButton: {fileID: 205216924}
   maxBetButton: {fileID: 1399243619}
   gameOverPanel: {fileID: 749364735}
-  audioSource: {fileID: 0}
-  spinTickClip: {fileID: 0}
-  reelStopClip: {fileID: 0}
-  winClip: {fileID: 0}
-  jackpotClip: {fileID: 0}
-  loseClip: {fileID: 0}
+  audioSource: {fileID: 1554137489}
+  spinTickClip: {fileID: 8300000, guid: 5d346a2fa8db8104e80c004efb2c410e, type: 3}
+  reelStopClip: {fileID: 8300000, guid: 16b47b75c761030418b49ca0cee042a9, type: 3}
+  winClip: {fileID: 8300000, guid: d3f2e5b76b69d154bbdaa5a1f1981619, type: 3}
+  jackpotClip: {fileID: 8300000, guid: 356ce6e591e287b43a39f205ddb2a615, type: 3}
+  loseClip: {fileID: 8300000, guid: d5f8b1570c140aa4cb8de3f795bf49ee, type: 3}
   spinStepDelay: 0.06
   baseSpinTicks: 12
 --- !u!114 &1554137488
@@ -4671,7 +4671,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
